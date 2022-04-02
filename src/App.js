@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import BasicForm from './components/BasicForm';
+// import BasicForm from './components/BasicForm';
+import Form1 from './components/From1'
+import Form2 from './components/Form2';
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
         <header className="App-header">
         </header>
       </div> */}
-      <BasicForm/>
+      {/* <BasicForm/> */}
+      <Form1/>
+      <Form2/>
     </>
   );
 }
